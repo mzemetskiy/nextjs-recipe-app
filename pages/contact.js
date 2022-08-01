@@ -2,7 +2,7 @@ import styles from "../styles/contact.module.css"
 import { useState } from "react";
 import Head from "next/head";
 
-const contact = () => {
+const Contact = () => {
     const [formData, setFormData] = useState({name: "", contact: "", message: "", submitted: false})
 
     function handleSubmit(event) {
@@ -67,4 +67,4 @@ const contact = () => {
     )
 }
  
-export default contact;
+export default Contact;
