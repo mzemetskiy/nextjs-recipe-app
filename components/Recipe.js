@@ -7,7 +7,7 @@ const Recipe = ({recipeObj}) => {
     return ( 
         <div className={styles.container}>
             <h1 className={styles.title}>{title}</h1>
-            <Image src={imgSrc} height={imgHeight} width={imgWidth} />
+            <Image alt="" src={imgSrc} height={imgHeight} width={imgWidth} />
             <h3 className={styles.credits}>Recipe by {author} on <a className={styles.link} href={"https://" + website}>{website}</a></h3>
             <ul className={styles.prepInfo}>
                 <li className={styles.left}>
@@ -22,7 +22,7 @@ const Recipe = ({recipeObj}) => {
                     <li className={styles.subsection}>Ingredients</li>
                     {ingredients.map(ingredient => (
                         <li key={ingredient} className={styles.margin}>
-                            <Image src="/checkmark.svg" className={styles.checkmark} height={20} width={20} />
+                            <Image alt="" src="/checkmark.svg" className={styles.checkmark} height={20} width={20} />
                             <span className={styles.text}>{ingredient}</span>
                         </li>
                     ))}

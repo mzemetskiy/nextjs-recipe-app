@@ -38,7 +38,7 @@ const Navbar = ({ children }) => {
                 <ul className={styles.container}>
                     <li className={styles.icon} onClick={toggleMenu}>
                         <div className={styles.iconContainer}>
-                            <Image src="/menu.svg" height={80} width={80}/>
+                            <Image alt="Menu" src="/menu.svg" height={80} width={80}/>
                         </div>
                     </li>
                     <li>

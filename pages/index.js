@@ -9,7 +9,7 @@ export default function Home() {
 
   const Header = () => (
     <header id={styles.header}>
-      <Image id={styles.banner} src="/banner.jpg" width={4350} height={2900} />
+      <Image alt='' id={styles.banner} src="/banner.jpg" width={4350} height={2900} />
       <div id={styles.bannerPosition}>
         <h1 id={styles.title}>Top <br/>Summer <br/>Recipes <br/></h1>
         <h3 id={styles.subtitle}>Fresh meals everyone will appreciate.</h3>
